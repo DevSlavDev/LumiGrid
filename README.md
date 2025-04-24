@@ -20,3 +20,48 @@ This repository contains the core resources that tie the entire LumiGrid project
 ## 🛠️ Project Structure
 
 Here's a visual representation of how things are organized:
+
+LumiGrid/ (Main Repository)
+├── docs/        📜 (Documentation)
+├── utils/       🔧 (Utilities)
+├── presets/     🎨 (Presets)
+├── config/      ⚙️ (Configuration)
+├── web/         💅 (Web Assets)
+└── README.md    📖 (You are here!)
+
+
+## 🔗 Node Repositories
+
+Each node type has its own dedicated repository for its specific code and resources:
+
+* [lumigrid-node-led](https://github.com/DevSlavDev/lumigrid-node-led) 💡 (ESP32 LED Controller)
+* [lumigrid-node-display](https://github.com/DevSlavDev/lumigrid-node-display) 🖥️ (Raspberry Pi Display Node)
+* [lumigrid-node-sensor](https://github.com/DevSlavDev/lumigrid-node-sensor) 🌡️ (ESP32 Sensor Node)
+* [lumigrid-node-acrelay](https://github.com/DevSlavDev/lumigrid-node-acrelay) ⚡ (ESP32 AC Relay/Dimmer Node)
+
+## 🚀 Getting Started
+
+1.  **Clone this repository:**
+
+    ```bash
+    git clone [https://github.com/DevSlavDev/LumiGrid.git](https://github.com/DevSlavDev/LumiGrid.git)
+    cd LumiGrid
+    ```
+
+2.  **Explore the directories:** Dive into `/docs/` to get an overview of the project, or check out `/utils/` for helpful scripts.
+
+3.  **Visit the node repositories:** Head over to the individual node repositories to start working with specific hardware.
+
+## 🤝 Contributing
+
+We welcome contributions! If you have ideas for improvements, new utilities, or better documentation, feel free to submit a pull request. Let's make LumiGrid even better together! 💪
+
+## 🐛 Issues
+
+Found a bug? Please let us know by creating an issue in this repository.
+
+## 📜 License
+
+\[License information will go here]
+
+## ✨ Let's build something amazing! ✨
